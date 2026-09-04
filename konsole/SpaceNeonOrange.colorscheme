@@ -1,0 +1,39 @@
+[General]
+Description=Space Neon Orange
+Opacity=0.95
+
+[Background]
+Color=10,10,11
+
+[BackgroundIntense]
+Color=20,20,25
+
+[Foreground]
+Color=240,240,240
+
+[ForegroundIntense]
+Color=255,255,255
+
+# Color 0 (Black / Dark Gray)
+[Color0]
+Color=15,15,18
+[Color0Intense]
+Color=40,40,45
+
+# Color 1 (Red / Accent Orange)
+[Color1]
+Color=255,107,0
+[Color1Intense]
+Color=255,130,30
+
+# Color 3 (Yellow / Pale Orange)
+[Color3]
+Color=255,165,0
+[Color3Intense]
+Color=255,185,50
+
+# Color 7 (White)
+[Color7]
+Color=200,200,200
+[Color7Intense]
+Color=255,255,255

@@ -1,0 +1,37 @@
+/* Minimal Deep Space Dark Theme with Neon Orange Accent */
+
+@define-color bg_color #0a0a0b;
+@define-color fg_color #f0f0f0;
+@define-color accent_color #ff6b00;
+@define-color border_color #222225;
+
+/* Global Window Backgrounds */
+window, dialog {
+    background-color: @bg_color;
+    color: @fg_color;
+}
+
+/* Neon Orange Active Borders */
+window:backdrop {
+    border: 1px solid @border_color;
+}
+window:focus {
+    border: 1px solid @accent_color;
+}
+
+/* Minimal Scrollbars */
+scrollbar slider {
+    background-color: #333338;
+    min-width: 4px;
+    border-radius: 0px;
+}
+
+scrollbar slider:hover {
+    background-color: @accent_color;
+}
+
+/* Text Selection */
+selection {
+    background-color: @accent_color;
+    color: #000000;
+}

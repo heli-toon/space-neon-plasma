@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Space Neon Minimal
+Comment=Ultra-minimal deep-space theme with neon orange accents
+X-KDE-PluginInfo-Name=SpaceNeonMinimal
+X-KDE-PluginInfo-Author=Space Neon Orange
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-License=MIT
+Type=Service
+ServiceTypes=Plasma/Theme
