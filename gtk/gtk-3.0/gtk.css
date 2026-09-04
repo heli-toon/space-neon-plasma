@@ -5,6 +5,10 @@
 @define-color accent_color #ff6b00;
 @define-color border_color #222225;
 
+* {
+    font-family: "JetBrainsMono Nerd Font Mono", "JetBrains Mono", monospace;
+}
+
 /* Global Window Backgrounds */
 window, dialog {
     background-color: @bg_color;
@@ -28,6 +32,22 @@ scrollbar slider {
 
 scrollbar slider:hover {
     background-color: @accent_color;
+}
+
+/* Keep every interactive control on the orange accent. */
+checkbutton:hover, radiobutton:hover,
+checkbutton:checked, radiobutton:checked,
+switch:checked, switch slider:checked,
+scale highlight, progressbar progress {
+    color: @accent_color;
+    border-color: @accent_color;
+    background-color: @accent_color;
+}
+
+button:hover, row:hover, list row:hover,
+menuitem:hover, tab:hover {
+    background-color: @accent_color;
+    color: #000000;
 }
 
 /* Text Selection */

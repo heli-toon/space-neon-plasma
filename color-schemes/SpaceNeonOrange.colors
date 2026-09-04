@@ -1,19 +1,24 @@
 [General]
 Name=Space Neon Orange
 ColorScheme=SpaceNeonOrange
+AccentColor=255,107,0
 
 [Colors:Window]
-BackgroundNormal=10,10,11
+BackgroundNormal=7,7,8
+BackgroundAlternate=11,11,13
 ForegroundNormal=240,240,240
 ForegroundInactive=140,140,140
 
 [Colors:View]
-BackgroundNormal=15,15,18
+BackgroundNormal=12,12,14
+BackgroundAlternate=17,17,20
 ForegroundNormal=240,240,240
 ForegroundLink=255,107,0
+ForegroundVisited=255,130,30
 
 [Colors:Button]
-BackgroundNormal=25,25,30
+BackgroundNormal=13,13,16
+BackgroundAlternate=19,19,23
 ForegroundNormal=255,255,255
 HoverBackground=255,107,0
 HoverForeground=0,0,0
@@ -21,13 +26,29 @@ HoverForeground=0,0,0
 [Colors:Selection]
 BackgroundNormal=255,107,0
 ForegroundNormal=0,0,0
+BackgroundInactive=127,54,0
+ForegroundInactive=240,240,240
+DecorationFocus=255,107,0
+DecorationHover=255,130,30
+
+[Colors:Complementary]
+BackgroundNormal=5,5,6
+ForegroundNormal=240,240,240
+
+[Colors:Header]
+BackgroundNormal=9,9,11
+ForegroundNormal=240,240,240
+
+[Colors:Tooltip]
+BackgroundNormal=5,5,5
+ForegroundNormal=255,107,0
 
 [Colors:Tooltip]
 BackgroundNormal=5,5,5
 ForegroundNormal=255,107,0
 
 [WM]
-activeBackground=10,10,11
+activeBackground=7,7,8
 activeForeground=255,107,0
-inactiveBackground=15,15,18
+inactiveBackground=11,11,13
 inactiveForeground=100,100,100
