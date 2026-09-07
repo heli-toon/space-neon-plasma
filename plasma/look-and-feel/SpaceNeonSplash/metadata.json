@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Name": "Space Neon Splash",
+        "Description": "Pure Monochrome Black & White Minimal KDE Splash Screen",
+        "Id": "SpaceNeonSplash",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "1.0",
+        "Website": ""
+    }
+}

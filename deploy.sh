@@ -18,6 +18,7 @@ GTK3_DIR="$HOME/.config/gtk-3.0"
 GTK4_DIR="$HOME/.config/gtk-4.0"
 KONSOLE_DIR="$HOME/.local/share/konsole"
 PLASMA_THEME_DIR="$HOME/.local/share/plasma/desktoptheme"
+PLASMA_LOOKANDFEEL_DIR="$HOME/.local/share/plasma/look-and-feel"
 WALLPAPER_DIR="$HOME/.local/share/wallpapers/SpaceNeonOrange/contents/images"
 ICON_DIR="$HOME/.local/share/icons"
 ROFI_DIR="$HOME/.config/rofi"
@@ -28,7 +29,7 @@ FONT_TOOLBAR="JetBrainsMono Nerd Font Mono,9,-1,5,50,0,0,0,0,0"
 FONT_SMALL="JetBrainsMono Nerd Font Mono,8,-1,5,50,0,0,0,0,0"
 SCALABLE_ICON_DIR="$HOME/.local/share/icons/hicolor/scalable/apps"
 
-mkdir -p "$COLOR_DIR" "$GTK3_DIR" "$GTK4_DIR" "$KONSOLE_DIR" "$PLASMA_THEME_DIR" "$WALLPAPER_DIR" "$ICON_DIR" "$SCALABLE_ICON_DIR" "$ROFI_DIR" "$BIN_DIR" "$APPLICATIONS_DIR"
+mkdir -p "$COLOR_DIR" "$GTK3_DIR" "$GTK4_DIR" "$KONSOLE_DIR" "$PLASMA_THEME_DIR" "$PLASMA_LOOKANDFEEL_DIR" "$WALLPAPER_DIR" "$ICON_DIR" "$SCALABLE_ICON_DIR" "$ROFI_DIR" "$BIN_DIR" "$APPLICATIONS_DIR"
 
 echo -e "${GREEN}[+] Copying files...${NC}"
 cp -f "$SCRIPT_DIR/color-schemes/SpaceNeonOrange.colors" "$COLOR_DIR/"
@@ -55,6 +56,7 @@ else
 fi
 [ -f "$SCRIPT_DIR/konsole/SpaceNeonOrange.colorscheme" ] && cp -f "$SCRIPT_DIR/konsole/SpaceNeonOrange.colorscheme" "$KONSOLE_DIR/"
 [ -d "$SCRIPT_DIR/plasma/desktoptheme/SpaceNeonMinimal" ] && cp -rf "$SCRIPT_DIR/plasma/desktoptheme/SpaceNeonMinimal" "$PLASMA_THEME_DIR/"
+[ -d "$SCRIPT_DIR/plasma/look-and-feel/SpaceNeonSplash" ] && cp -rf "$SCRIPT_DIR/plasma/look-and-feel/SpaceNeonSplash" "$PLASMA_LOOKANDFEEL_DIR/"
 [ -f "$SCRIPT_DIR/wallpapers/space-neon-orange-nebula.jpg" ] && cp -f "$SCRIPT_DIR/wallpapers/space-neon-orange-nebula.jpg" "$WALLPAPER_DIR/"
 [ -f "$SCRIPT_DIR/rofi/config.rasi" ] && cp -f "$SCRIPT_DIR/rofi/config.rasi" "$ROFI_DIR/config.rasi"
 [ -f "$SCRIPT_DIR/rofi/space-neon-launcher" ] && install -m 755 "$SCRIPT_DIR/rofi/space-neon-launcher" "$BIN_DIR/space-neon-launcher"
@@ -91,6 +93,8 @@ if command -v kwriteconfig6 &> /dev/null; then
     kwriteconfig6 --file kdeglobals --group General --key activeFont "$FONT_VALUE"
     kwriteconfig6 --file kdeglobals --group General --key smallestReadableFont "$FONT_SMALL"
     kwriteconfig6 --file kdeglobals --group WM --key activeFont "$FONT_VALUE"
+    kwriteconfig6 --file ksplashrc --group KSplash --key Theme "SpaceNeonSplash"
+    kwriteconfig6 --file ksplashrc --group KSplash --key Engine "KSplashQML"
 elif command -v kwriteconfig5 &> /dev/null; then
     kwriteconfig5 --file kdeglobals --group General --key ColorScheme "SpaceNeonOrange"
     kwriteconfig5 --file kdeglobals --group General --key AccentColor "255,107,0"
@@ -101,6 +105,8 @@ elif command -v kwriteconfig5 &> /dev/null; then
     kwriteconfig5 --file kdeglobals --group General --key activeFont "$FONT_VALUE"
     kwriteconfig5 --file kdeglobals --group General --key smallestReadableFont "$FONT_SMALL"
     kwriteconfig5 --file kdeglobals --group WM --key activeFont "$FONT_VALUE"
+    kwriteconfig5 --file ksplashrc --group KSplash --key Theme "SpaceNeonSplash"
+    kwriteconfig5 --file ksplashrc --group KSplash --key Engine "KSplashQML"
 fi
 
 if [ -f "$ICON_DIR/YAMIS/index.theme" ]; then
