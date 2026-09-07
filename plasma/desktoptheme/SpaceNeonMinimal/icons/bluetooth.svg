@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22" height="22" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style type="text/css">
+   .ColorScheme-Text { color:#f0f0f0; fill:currentColor; }
+   .ColorScheme-Highlight { color:#ff6b00; fill:currentColor; }
+  </style>
+ </defs>
+ <g id="22-22-bluetooth-active">
+  <rect width="22" height="22" opacity="0"/>
+  <path class="ColorScheme-Text" d="M 7.5 7 L 14.5 12 L 11 15.5 L 11 3.5 L 14.5 7 L 7.5 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+ </g>
+ <g id="22-22-bluetooth-disabled">
+  <rect width="22" height="22" opacity="0"/>
+  <path class="ColorScheme-Text" opacity="0.3" d="M 7.5 7 L 14.5 12 L 11 15.5 L 11 3.5 L 14.5 7 L 7.5 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="ColorScheme-Highlight" d="M 4 4 L 18 18" stroke="#ff6b00" stroke-width="1.8"/>
+ </g>
+</svg>

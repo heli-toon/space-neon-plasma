@@ -11,7 +11,10 @@ An ultra-minimal, high-contrast dark theme for KDE Plasma designed for performan
 - **Neon orange accents** — precise highlight colors for borders, buttons, and selections.
 - **Orange-only interaction states** — hover, selected items, task-manager buttons, radio controls, and scrollbars no longer fall back to blue.
 - **Monochrome icons** — Yet Another Monochrome Icon Set (YAMIS) follows the Plasma foreground colour, keeping iconography grayscale.
-- **JetBrainsMono Nerd Font Mono** — applied to Plasma and GTK.
+- **JetBrainsMono Nerd Font Mono** — applied comprehensively across Plasma (menu, toolbar, window titles, small fonts, fixed, general) and GTK.
+- **High-contrast checkbutton readability** — checkbox labels remain crisp white (`#F0F0F0`) on hover/selection while accentuating the indicator box.
+- **Custom System Tray SVGs** — minimalistic, high-precision Plasma system tray icons (`systemtray`, `audio`, `network`, `battery`, `notifications`, `bluetooth`).
+- **Custom Antigravity IDE Icon** — sleek deep space dark & neon orange vector icon (`icons/antigravity.svg`).
 - **Darker panel palette** — the panel and button surfaces sit below the window background for a more deliberate contrast.
 - **Rofi launcher** — a small keyboard-first `drun` launcher with the same black, orange, and JetBrains Mono treatment.
 - **Multi-version support** — works on KDE Plasma 5 and Plasma 6.
@@ -51,7 +54,8 @@ chmod +x install.sh
 | KDE color scheme | `color-schemes/SpaceNeonOrange.colors` |
 | GTK 3/4 CSS overrides | `gtk/gtk-3.0/gtk.css`, `gtk/gtk-4.0/gtk.css` |
 | Konsole theme | `konsole/SpaceNeonOrange.colorscheme` |
-| Plasma desktop theme metadata | `plasma/desktoptheme/SpaceNeonMinimal/metadata.desktop` |
+| Plasma desktop theme & tray icons | `plasma/desktoptheme/SpaceNeonMinimal/` |
+| Antigravity application icon | `icons/antigravity.svg` |
 | 4K matching wallpaper | `wallpapers/space-neon-orange-nebula.jpg` |
 | Rofi launcher | `rofi/config.rasi`, `rofi/space-neon-launcher` |
 

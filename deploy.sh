@@ -24,8 +24,11 @@ ROFI_DIR="$HOME/.config/rofi"
 BIN_DIR="$HOME/.local/bin"
 APPLICATIONS_DIR="$HOME/.local/share/applications"
 FONT_VALUE="JetBrainsMono Nerd Font Mono,10,-1,5,50,0,0,0,0,0"
+FONT_TOOLBAR="JetBrainsMono Nerd Font Mono,9,-1,5,50,0,0,0,0,0"
+FONT_SMALL="JetBrainsMono Nerd Font Mono,8,-1,5,50,0,0,0,0,0"
+SCALABLE_ICON_DIR="$HOME/.local/share/icons/hicolor/scalable/apps"
 
-mkdir -p "$COLOR_DIR" "$GTK3_DIR" "$GTK4_DIR" "$KONSOLE_DIR" "$PLASMA_THEME_DIR" "$WALLPAPER_DIR" "$ICON_DIR" "$ROFI_DIR" "$BIN_DIR" "$APPLICATIONS_DIR"
+mkdir -p "$COLOR_DIR" "$GTK3_DIR" "$GTK4_DIR" "$KONSOLE_DIR" "$PLASMA_THEME_DIR" "$WALLPAPER_DIR" "$ICON_DIR" "$SCALABLE_ICON_DIR" "$ROFI_DIR" "$BIN_DIR" "$APPLICATIONS_DIR"
 
 echo -e "${GREEN}[+] Copying files...${NC}"
 cp -f "$SCRIPT_DIR/color-schemes/SpaceNeonOrange.colors" "$COLOR_DIR/"
@@ -38,17 +41,47 @@ cp -f "$SCRIPT_DIR/gtk/gtk-4.0/gtk.css" "$GTK4_DIR/"
 [ -f "$SCRIPT_DIR/rofi/space-neon-launcher" ] && install -m 755 "$SCRIPT_DIR/rofi/space-neon-launcher" "$BIN_DIR/space-neon-launcher"
 [ -f "$SCRIPT_DIR/rofi/space-neon-launcher.desktop" ] && cp -f "$SCRIPT_DIR/rofi/space-neon-launcher.desktop" "$APPLICATIONS_DIR/"
 
-echo -e "${GREEN}[+] Applying color scheme...${NC}"
+# Antigravity & Start Menu icon installation
+if [ -f "$SCRIPT_DIR/icons/antigravity.svg" ]; then
+    cp -f "$SCRIPT_DIR/icons/antigravity.svg" "$SCALABLE_ICON_DIR/antigravity.svg"
+    cp -f "$SCRIPT_DIR/icons/antigravity.svg" "$ICON_DIR/antigravity.svg"
+fi
+if [ -f "$SCRIPT_DIR/icons/start-here-kde.svg" ]; then
+    cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$SCALABLE_ICON_DIR/start-here-kde.svg"
+    cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$SCALABLE_ICON_DIR/start-here.svg"
+    cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$SCALABLE_ICON_DIR/kde.svg"
+    cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$ICON_DIR/start-here-kde.svg"
+    cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$ICON_DIR/start-here.svg"
+    cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$ICON_DIR/kde.svg"
+    [ -d "$ICON_DIR/YAMIS/places/scalable" ] && cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$ICON_DIR/YAMIS/places/scalable/start-here-kde.svg"
+    [ -d "$ICON_DIR/YAMIS/places/scalable" ] && cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$ICON_DIR/YAMIS/places/scalable/start-here.svg"
+    [ -d "$ICON_DIR/YAMIS/places/scalable" ] && cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$ICON_DIR/YAMIS/places/scalable/kde.svg"
+fi
+if [ -f "$APPLICATIONS_DIR/antigravity.desktop" ]; then
+    sed -i 's|^Icon=.*|Icon=antigravity|' "$APPLICATIONS_DIR/antigravity.desktop"
+fi
+
+echo -e "${GREEN}[+] Applying color scheme and fonts...${NC}"
 if command -v kwriteconfig6 &> /dev/null; then
     kwriteconfig6 --file kdeglobals --group General --key ColorScheme "SpaceNeonOrange"
     kwriteconfig6 --file kdeglobals --group General --key AccentColor "255,107,0"
     kwriteconfig6 --file kdeglobals --group General --key font "$FONT_VALUE"
     kwriteconfig6 --file kdeglobals --group General --key fixed "$FONT_VALUE"
+    kwriteconfig6 --file kdeglobals --group General --key menuFont "$FONT_VALUE"
+    kwriteconfig6 --file kdeglobals --group General --key toolbarFont "$FONT_TOOLBAR"
+    kwriteconfig6 --file kdeglobals --group General --key activeFont "$FONT_VALUE"
+    kwriteconfig6 --file kdeglobals --group General --key smallestReadableFont "$FONT_SMALL"
+    kwriteconfig6 --file kdeglobals --group WM --key activeFont "$FONT_VALUE"
 elif command -v kwriteconfig5 &> /dev/null; then
     kwriteconfig5 --file kdeglobals --group General --key ColorScheme "SpaceNeonOrange"
     kwriteconfig5 --file kdeglobals --group General --key AccentColor "255,107,0"
     kwriteconfig5 --file kdeglobals --group General --key font "$FONT_VALUE"
     kwriteconfig5 --file kdeglobals --group General --key fixed "$FONT_VALUE"
+    kwriteconfig5 --file kdeglobals --group General --key menuFont "$FONT_VALUE"
+    kwriteconfig5 --file kdeglobals --group General --key toolbarFont "$FONT_TOOLBAR"
+    kwriteconfig5 --file kdeglobals --group General --key activeFont "$FONT_VALUE"
+    kwriteconfig5 --file kdeglobals --group General --key smallestReadableFont "$FONT_SMALL"
+    kwriteconfig5 --file kdeglobals --group WM --key activeFont "$FONT_VALUE"
 fi
 
 if [ -f "$ICON_DIR/YAMIS/index.theme" ]; then

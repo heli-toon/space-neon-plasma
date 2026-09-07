@@ -34,9 +34,44 @@ scrollbar slider:hover {
     background-color: @accent_color;
 }
 
-/* Keep every interactive control on the orange accent. */
-checkbutton:hover, radiobutton:hover,
-checkbutton:checked, radiobutton:checked,
+/* Interactive controls styling */
+checkbutton, radiobutton {
+    color: @fg_color;
+}
+
+checkbutton label, radiobutton label,
+checkbutton:hover label, radiobutton:hover label,
+checkbutton:checked label, radiobutton:checked label {
+    color: @fg_color;
+    background-color: transparent;
+}
+
+checkbutton check, check {
+    border: 1px solid @border_color;
+    border-radius: 3px;
+    min-width: 14px;
+    min-height: 14px;
+}
+
+radiobutton radio, radio {
+    border: 1px solid @border_color;
+    border-radius: 100%;
+    min-width: 14px;
+    min-height: 14px;
+}
+
+checkbutton check:hover, check:hover,
+radiobutton radio:hover, radio:hover {
+    border-color: @accent_color;
+}
+
+checkbutton check:checked, check:checked,
+radiobutton radio:checked, radio:checked {
+    background-color: @accent_color;
+    border-color: @accent_color;
+    color: #000000;
+}
+
 switch:checked, switch slider:checked,
 scale highlight, progressbar progress {
     color: @accent_color;

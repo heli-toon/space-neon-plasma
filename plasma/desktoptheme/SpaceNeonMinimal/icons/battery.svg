@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22" height="22" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style type="text/css">
+   .ColorScheme-Text { color:#f0f0f0; fill:currentColor; }
+   .ColorScheme-Highlight { color:#ff6b00; fill:currentColor; }
+  </style>
+ </defs>
+ <g id="battery">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="10" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="10" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-full">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="10" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-100">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="10" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-100">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="10" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-90">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="9" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-90">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="9" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-090">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="9" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-090">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="9" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-80">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="8" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-080">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="8" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-80">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="8" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-080">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="8" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-70">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="7" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-070">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="7" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-070">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="7" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-70">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="7" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-60">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="6" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-060">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="6" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-60">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="6" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-060">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="6" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-50">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="5" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-050">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="5" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-50">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="5" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-050">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="5" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-040">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="4" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-40">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="4" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-040">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="4" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-40">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="4" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-30">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="3" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-30">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="3" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-030">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="3" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-030">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="3" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-20">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Highlight" x="5" y="9" width="2" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-020">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Highlight" x="5" y="9" width="2" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-020">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Highlight" x="5" y="9" width="2" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-20">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Highlight" x="5" y="9" width="2" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-010">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Highlight" x="5" y="9" width="1" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-10">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Highlight" x="5" y="9" width="1" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-10">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Highlight" x="5" y="9" width="1" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-010">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Highlight" x="5" y="9" width="1" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-000">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  
+ </g>
+ <g id="battery-00">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  
+ </g>
+ <g id="battery-000">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  
+ </g>
+ <g id="22-22-battery-00">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  
+ </g>
+ <g id="battery-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-100-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="10" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-100">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="10" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-100-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="10" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-100">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="10" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-090-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="9" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-90">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="9" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-90-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="9" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-090">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="9" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-090-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="9" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-90">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="9" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-090">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="9" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-90-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="9" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-80">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="8" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-080">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="8" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-80-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="8" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-080-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="8" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-80-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="8" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-080">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="8" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-80">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="8" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-080-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="8" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-70-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="7" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-70">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="7" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-70-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="7" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-070-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="7" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-070">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="7" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-070-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="7" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-70">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="7" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-070">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="7" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-060-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="6" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-60-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="6" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-60-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="6" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-60">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="6" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-060-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="6" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-060">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="6" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-060">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="6" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-60">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="6" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-050-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="5" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-50-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="5" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-050">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="5" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-50-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="5" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-50">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="5" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-050-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="5" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-050">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="5" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-50">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="5" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-40-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="4" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-040">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="4" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-040-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="4" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-40-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="4" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-040-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="4" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-40">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="4" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-40">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="4" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-040">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="4" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-30-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="3" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-30-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="3" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-030-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="3" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-030">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="3" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-30">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="3" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-30">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="3" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-030-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="3" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-030">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="3" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-020-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="2" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-020">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="2" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-20">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="2" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-020-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="2" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-20-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="2" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-20">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="2" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-020">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="2" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-20-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="2" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-010">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="1" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-010">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="1" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-10">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="1" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-10-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="1" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-010-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="1" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-10-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="1" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-010-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="1" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-10">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Text" opacity="0.5" x="5" y="9" width="1" height="4" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-00-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-000">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-00">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-000-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-00-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-000-charging">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-charging-00">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="22-22-battery-charging-000">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  
+  <path class="ColorScheme-Highlight" d="M 10.5 7.5 L 8 11.5 L 10.5 11.5 L 9 14.5 L 13 10.5 L 10.5 10.5 Z"/>
+ </g>
+ <g id="battery-low">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Highlight" x="5" y="9" width="2" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-low">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Highlight" x="5" y="9" width="2" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-caution">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Highlight" x="5" y="9" width="1" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-battery-caution">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <rect class="ColorScheme-Highlight" x="5" y="9" width="1" height="4" rx="0.5"/>
+ </g>
+ <g id="battery-missing">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 8 9 L 14 15 M 14 9 L 8 15" stroke="#ff6b00" stroke-width="1.4" stroke-linecap="round"/>
+ </g>
+ <g id="22-22-battery-missing">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 8 9 L 14 15 M 14 9 L 8 15" stroke="#ff6b00" stroke-width="1.4" stroke-linecap="round"/>
+ </g>
+ <g id="Unavailable">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 8 9 L 14 15 M 14 9 L 8 15" stroke="#ff6b00" stroke-width="1.4" stroke-linecap="round"/>
+ </g>
+ <g id="22-22-Unavailable">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+  <path class="ColorScheme-Highlight" d="M 8 9 L 14 15 M 14 9 L 8 15" stroke="#ff6b00" stroke-width="1.4" stroke-linecap="round"/>
+ </g>
+ <g id="AcAdapter">
+  <rect width="22" height="22" opacity="0"/>
+  <path class="ColorScheme-Text" d="M 6 8 L 10 8 L 10 14 L 6 14 Z M 10 10 L 14 10 L 14 12 L 10 12 Z M 14 11 L 17 11" stroke="currentColor" stroke-width="1.4" fill="none"/>
+ </g>
+ <g id="22-22-AcAdapter">
+  <rect width="22" height="22" opacity="0"/>
+  <path class="ColorScheme-Text" d="M 6 8 L 10 8 L 10 14 L 6 14 Z M 10 10 L 14 10 L 14 12 L 10 12 Z M 14 11 L 17 11" stroke="currentColor" stroke-width="1.4" fill="none"/>
+ </g>
+ <g id="Battery">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+ </g>
+ <g id="22-22-Battery">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.5" y="7.5" width="13" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <rect class="ColorScheme-Text" x="17" y="10" width="1.5" height="2" rx="0.5"/>
+ </g>
+ <g id="Fill100">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="10" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-Fill100">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="10" height="4" rx="0.5"/>
+ </g>
+ <g id="Fill90">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="9" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-Fill90">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="9" height="4" rx="0.5"/>
+ </g>
+ <g id="Fill80">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="8" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-Fill80">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="8" height="4" rx="0.5"/>
+ </g>
+ <g id="Fill70">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="7" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-Fill70">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="7" height="4" rx="0.5"/>
+ </g>
+ <g id="Fill60">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="6" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-Fill60">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="6" height="4" rx="0.5"/>
+ </g>
+ <g id="Fill50">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="5" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-Fill50">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="5" height="4" rx="0.5"/>
+ </g>
+ <g id="Fill40">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="4" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-Fill40">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="4" height="4" rx="0.5"/>
+ </g>
+ <g id="Fill30">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="3" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-Fill30">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="3" height="4" rx="0.5"/>
+ </g>
+ <g id="Fill20">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="2" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-Fill20">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="2" height="4" rx="0.5"/>
+ </g>
+ <g id="Fill10">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="1" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-Fill10">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="1" height="4" rx="0.5"/>
+ </g>
+ <g id="Fill0">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="0" height="4" rx="0.5"/>
+ </g>
+ <g id="22-22-Fill0">
+  <rect width="22" height="22" opacity="0"/>
+  <rect class="ColorScheme-Text" x="5" y="9" width="0" height="4" rx="0.5"/>
+ </g>
+</svg>
