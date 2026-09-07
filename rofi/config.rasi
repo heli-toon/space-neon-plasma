@@ -1,0 +1,49 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    display-drun: "apps";
+    display-run: "run";
+    display-window: "windows";
+    drun-display-format: "{name}";
+    font: "JetBrainsMono Nerd Font Mono 11";
+    icon-theme: "YAMIS";
+    matching: "fuzzy";
+    sort: true;
+    sidebar-mode: false;
+}
+
+* {
+    background: #070708;
+    panel: #0d0d10;
+    panel-alt: #131317;
+    foreground: #f0f0f0;
+    muted: #8c8c90;
+    orange: #ff6b00;
+    border: #28282d;
+    transparent: #00000000;
+}
+
+window {
+    width: 38%;
+    location: center;
+    anchor: center;
+    background-color: @background;
+    border: 2px;
+    border-color: @orange;
+    border-radius: 0px;
+    padding: 14px;
+}
+
+mainbox { background-color: @transparent; spacing: 10px; }
+inputbar { background-color: @panel; text-color: @foreground; padding: 10px 12px; children: [ prompt, entry ]; }
+prompt { text-color: @orange; font: "JetBrainsMono Nerd Font Mono Bold 11"; }
+entry { text-color: @foreground; placeholder: "Search applications"; placeholder-color: @muted; }
+listview { background-color: @transparent; lines: 7; columns: 1; fixed-height: false; spacing: 5px; }
+element { background-color: @panel; text-color: @foreground; padding: 9px 10px; }
+element normal.normal { background-color: @panel; text-color: @foreground; }
+element alternate.normal { background-color: @panel-alt; text-color: @foreground; }
+element selected.normal { background-color: @orange; text-color: #000000; }
+element-icon { size: 20px; background-color: @transparent; }
+element-text { background-color: @transparent; text-color: inherit; vertical-align: 0.5; }
+message { background-color: @panel; border-color: @border; border: 1px; padding: 10px; }
+textbox { text-color: @muted; background-color: @transparent; }

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Space Neon Launcher
+Comment=Open the Space Neon Rofi application launcher
+Exec=space-neon-launcher
+Icon=system-search
+Terminal=false
+Categories=Utility;

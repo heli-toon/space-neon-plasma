@@ -43,10 +43,6 @@ ForegroundNormal=240,240,240
 BackgroundNormal=5,5,5
 ForegroundNormal=255,107,0
 
-[Colors:Tooltip]
-BackgroundNormal=5,5,5
-ForegroundNormal=255,107,0
-
 [WM]
 activeBackground=7,7,8
 activeForeground=255,107,0

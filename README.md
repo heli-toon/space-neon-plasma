@@ -10,9 +10,10 @@ An ultra-minimal, high-contrast dark theme for KDE Plasma designed for performan
 - **Deep space palette** — pitch black base, dark grays for UI elements, white for text legibility.
 - **Neon orange accents** — precise highlight colors for borders, buttons, and selections.
 - **Orange-only interaction states** — hover, selected items, task-manager buttons, radio controls, and scrollbars no longer fall back to blue.
-- **Monochrome icons** — Zafiro Icons (dark) is selected when installed; it keeps the desktop iconography grayscale.
+- **Monochrome icons** — Yet Another Monochrome Icon Set (YAMIS) follows the Plasma foreground colour, keeping iconography grayscale.
 - **JetBrainsMono Nerd Font Mono** — applied to Plasma and GTK.
 - **Darker panel palette** — the panel and button surfaces sit below the window background for a more deliberate contrast.
+- **Rofi launcher** — a small keyboard-first `drun` launcher with the same black, orange, and JetBrains Mono treatment.
 - **Multi-version support** — works on KDE Plasma 5 and Plasma 6.
 - **Matching Konsole theme** included for a consistent terminal look.
 
@@ -38,9 +39,10 @@ chmod +x install.sh
 1. Open **System Settings → Appearance → Colors** and select **Space Neon Orange**.
 2. Restart GTK apps (Firefox, GIMP, etc.) to pick up the new `gtk.css`.
 3. In Konsole, go to **Settings → Edit Current Profile → Appearance** and select **Space Neon Orange**.
-4. Install **Zafiro Icons** (dark) before applying the theme. The deployer selects `Zafiro-icons-Dark`; if your package uses a different name, choose its dark variant in **System Settings → Icons**.
+4. Install **Yet Another Monochrome Icon Set (YAMIS)** from **System Settings → Icons → Get New…**, then re-run the deployer. It selects the actual icon-theme key: `YAMIS`.
 5. Install **JetBrainsMono Nerd Font Mono** (for example from the Nerd Fonts package) before applying the theme.
 6. The included 4K orange-nebula wallpaper is applied automatically when `plasma-apply-wallpaperimage` is available.
+7. Install `rofi` through your distro package manager, then use `space-neon-launcher` (or bind it to `Meta+Space` in **System Settings → Shortcuts → Custom Shortcuts**) for the minimal application launcher.
 
 ## Included Components
 
@@ -51,6 +53,7 @@ chmod +x install.sh
 | Konsole theme | `konsole/SpaceNeonOrange.colorscheme` |
 | Plasma desktop theme metadata | `plasma/desktoptheme/SpaceNeonMinimal/metadata.desktop` |
 | 4K matching wallpaper | `wallpapers/space-neon-orange-nebula.jpg` |
+| Rofi launcher | `rofi/config.rasi`, `rofi/space-neon-launcher` |
 
 ## Repository Structure
 

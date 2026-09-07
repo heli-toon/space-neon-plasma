@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+exec rofi -show drun -show-icons -config "$HOME/.config/rofi/config.rasi"
