@@ -32,8 +32,27 @@ mkdir -p "$COLOR_DIR" "$GTK3_DIR" "$GTK4_DIR" "$KONSOLE_DIR" "$PLASMA_THEME_DIR"
 
 echo -e "${GREEN}[+] Copying files...${NC}"
 cp -f "$SCRIPT_DIR/color-schemes/SpaceNeonOrange.colors" "$COLOR_DIR/"
-cp -f "$SCRIPT_DIR/gtk/gtk-3.0/gtk.css" "$GTK3_DIR/"
-cp -f "$SCRIPT_DIR/gtk/gtk-4.0/gtk.css" "$GTK4_DIR/"
+
+# GTK CSS files are session-global — they are read by every GTK app regardless
+# of which desktop environment is active. Only deploy them inside a KDE Plasma
+# session to avoid bleeding Space Neon colours into Xfce, Cinnamon, etc.
+# Pass --force-gtk to override this guard explicitly.
+_CURRENT_DE="${XDG_CURRENT_DESKTOP:-${DESKTOP_SESSION:-unknown}}"
+_IS_KDE=false
+case "${_CURRENT_DE,,}" in
+    *kde*|*plasma*) _IS_KDE=true ;;
+esac
+[[ " $* " == *" --force-gtk "* ]] && _IS_KDE=true
+
+if $_IS_KDE; then
+    echo -e "${GREEN}[+] Applying GTK overrides (KDE Plasma session detected)...${NC}"
+    cp -f "$SCRIPT_DIR/gtk/gtk-3.0/gtk.css" "$GTK3_DIR/"
+    cp -f "$SCRIPT_DIR/gtk/gtk-4.0/gtk.css" "$GTK4_DIR/"
+else
+    echo -e "${ORANGE}[~] Skipping GTK CSS — not running inside KDE Plasma.${NC}"
+    echo -e "${ORANGE}    Your Xfce/Cinnamon GTK theme is untouched.${NC}"
+    echo -e "${ORANGE}    Re-run with --force-gtk to override this guard.${NC}"
+fi
 [ -f "$SCRIPT_DIR/konsole/SpaceNeonOrange.colorscheme" ] && cp -f "$SCRIPT_DIR/konsole/SpaceNeonOrange.colorscheme" "$KONSOLE_DIR/"
 [ -d "$SCRIPT_DIR/plasma/desktoptheme/SpaceNeonMinimal" ] && cp -rf "$SCRIPT_DIR/plasma/desktoptheme/SpaceNeonMinimal" "$PLASMA_THEME_DIR/"
 [ -f "$SCRIPT_DIR/wallpapers/space-neon-orange-nebula.jpg" ] && cp -f "$SCRIPT_DIR/wallpapers/space-neon-orange-nebula.jpg" "$WALLPAPER_DIR/"
