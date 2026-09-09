@@ -48,7 +48,7 @@ Rectangle {
                     anchors.centerIn: parent
                     width: 76
                     height: 76
-                    source: "images/logo.svg"
+                    source: "images/logo_monochrome.png"
                     asynchronous: true
                     smooth: true
                 }

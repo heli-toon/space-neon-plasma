@@ -6,8 +6,6 @@ Two ways to install: **remote** (from GitHub, one line) or **local** (you alread
 
 ## Option A — Remote install (from GitHub)
 
-Use this once the repo is pushed to your own GitHub account.
-
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/heli-toon/space-neon-plasma/main/install.sh)"
 ```
