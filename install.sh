@@ -20,6 +20,7 @@ KONSOLE_DIR="$HOME/.local/share/konsole"
 PLASMA_THEME_DIR="$HOME/.local/share/plasma/desktoptheme"
 PLASMA_LOOKANDFEEL_DIR="$HOME/.local/share/plasma/look-and-feel"
 WALLPAPER_DIR="$HOME/.local/share/wallpapers/SpaceNeonOrange/contents/images"
+SDDM_THEME_DIR="$HOME/.local/share/sddm/themes"
 ICON_DIR="$HOME/.local/share/icons"
 ROFI_DIR="$HOME/.config/rofi"
 BIN_DIR="$HOME/.local/bin"
@@ -30,7 +31,7 @@ FONT_SMALL="JetBrainsMono Nerd Font Mono,8,-1,5,50,0,0,0,0,0"
 SCALABLE_ICON_DIR="$HOME/.local/share/icons/hicolor/scalable/apps"
 
 # Create directories if they don't exist
-mkdir -p "$COLOR_DIR" "$GTK3_DIR" "$GTK4_DIR" "$KONSOLE_DIR" "$PLASMA_THEME_DIR" "$PLASMA_LOOKANDFEEL_DIR" "$WALLPAPER_DIR" "$ICON_DIR" "$SCALABLE_ICON_DIR" "$ROFI_DIR" "$BIN_DIR" "$APPLICATIONS_DIR"
+mkdir -p "$COLOR_DIR" "$GTK3_DIR" "$GTK4_DIR" "$KONSOLE_DIR" "$PLASMA_THEME_DIR" "$PLASMA_LOOKANDFEEL_DIR" "$WALLPAPER_DIR" "$SDDM_THEME_DIR" "$ICON_DIR" "$SCALABLE_ICON_DIR" "$ROFI_DIR" "$BIN_DIR" "$APPLICATIONS_DIR"
 
 # Get current script directory
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -63,6 +64,7 @@ fi
 [ -d "$SCRIPT_DIR/plasma/desktoptheme/SpaceNeonMinimal" ] && cp -rf "$SCRIPT_DIR/plasma/desktoptheme/SpaceNeonMinimal" "$PLASMA_THEME_DIR/"
 [ -d "$SCRIPT_DIR/plasma/look-and-feel/SpaceNeonSplash" ] && cp -rf "$SCRIPT_DIR/plasma/look-and-feel/SpaceNeonSplash" "$PLASMA_LOOKANDFEEL_DIR/"
 [ -f "$SCRIPT_DIR/wallpapers/space-neon-orange-nebula.jpg" ] && cp -f "$SCRIPT_DIR/wallpapers/space-neon-orange-nebula.jpg" "$WALLPAPER_DIR/"
+[ -d "$SCRIPT_DIR/sddm/SpaceNeonSDDM/themes/SpaceNeon" ] && cp -rf "$SCRIPT_DIR/sddm/SpaceNeonSDDM/themes/SpaceNeon" "$SDDM_THEME_DIR/"
 [ -f "$SCRIPT_DIR/rofi/config.rasi" ] && cp -f "$SCRIPT_DIR/rofi/config.rasi" "$ROFI_DIR/config.rasi"
 [ -f "$SCRIPT_DIR/rofi/space-neon-launcher" ] && install -m 755 "$SCRIPT_DIR/rofi/space-neon-launcher" "$BIN_DIR/space-neon-launcher"
 [ -f "$SCRIPT_DIR/rofi/space-neon-launcher.desktop" ] && cp -f "$SCRIPT_DIR/rofi/space-neon-launcher.desktop" "$APPLICATIONS_DIR/"
@@ -144,4 +146,5 @@ fi
 echo -e "${ORANGE}========================================${NC}"
 echo -e "${GREEN} Success! Theme installed and applied. ${NC}"
 echo -e "${ORANGE}========================================${NC}"
-echo "Note: some apps (GTK, Konsole profile selection) may need a restart to pick up the new theme."
+echo "Note: some apps (GTK, Konsole profile selection) may need a restart to pick up the new theme.
+To use the SDDM theme, go to System Settings > Startup and Shutdown > Login Screen (SDDM) and select 'Space Neutron SDDM'. If the theme does not appear, you may need to copy it to /usr/share/sddm/themes (requires root)."
