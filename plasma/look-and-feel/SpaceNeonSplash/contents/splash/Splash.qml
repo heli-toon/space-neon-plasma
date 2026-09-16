@@ -56,7 +56,7 @@ Rectangle {
 
             // Title Typography
             Text {
-                text: "SPACE NEON"
+                text: "MUHAIMIN.DEV OS"
                 color: "#ffffff"
                 font.pixelSize: 16
                 font.bold: true
