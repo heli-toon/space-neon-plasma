@@ -44,7 +44,7 @@ chmod +x install.sh
 3. In Konsole, go to **Settings → Edit Current Profile → Appearance** and select **Space Neon Orange**.
 4. Install **Yet Another Monochrome Icon Set (YAMIS)** from **System Settings → Icons → Get New…**, then re-run the deployer. It selects the actual icon-theme key: `YAMIS`.
 5. Install **JetBrainsMono Nerd Font Mono** (for example from the Nerd Fonts package) before applying the theme.
-6. The included 4K orange-nebula wallpaper is applied automatically when `plasma-apply-wallpaperimage` is available.
+6. The included 4K orange-nebula wallpaper is installed for optional manual selection; the installer never changes your current wallpaper.
 7. Install `rofi` through your distro package manager, then use `space-neon-launcher` (or bind it to `Meta+Space` in **System Settings → Shortcuts → Custom Shortcuts**) for the minimal application launcher.
 
 ## Included Components

@@ -131,8 +131,15 @@ else
     echo "[!] YAMIS is not installed. Install it from System Settings → Icons → Get New…, then re-run this script."
 fi
 
-if command -v plasma-apply-wallpaperimage &> /dev/null && [ -f "$WALLPAPER_DIR/space-neon-orange-nebula.jpg" ]; then
-    plasma-apply-wallpaperimage "$WALLPAPER_DIR/space-neon-orange-nebula.jpg" || true
+# The wallpaper is installed for manual selection only. Never replace a user's
+# existing desktop wallpaper during theme installation.
+
+# Select the Plasma desktop theme as well as the colour and icon themes above.
+# This is what makes Plasma load the custom system-tray SVG assets.
+if command -v kwriteconfig6 &> /dev/null; then
+    kwriteconfig6 --file plasmarc --group Theme --key name "SpaceNeonMinimal"
+elif command -v kwriteconfig5 &> /dev/null; then
+    kwriteconfig5 --file plasmarc --group Theme --key name "SpaceNeonMinimal"
 fi
 
 # Reload KWin to apply instantly
