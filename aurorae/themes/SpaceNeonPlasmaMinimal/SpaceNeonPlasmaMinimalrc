@@ -1,32 +1,31 @@
 [General]
-# Title alignment
 TitleAlignment=Center
-TitleEdgePaddingTop=4
-TitleEdgePaddingBottom=4
-TitleEdgeLeft=12
-TitleEdgeRight=12
-TitleEdgeTop=0
-TitleEdgeBottom=0
-TitleBorderLeft=0
-TitleBorderRight=0
-TitleHeight=28
+TitleVerticalAlignment=Center
+ActiveTextColor=255,255,255,255
+InactiveTextColor=255,255,255,210
+UseTextShadow=false
+Animation=100
+LeftButtons=M
+RightButtons=IAX
+Shadow=true
 
-# Padding and border radius — squircle-style
+[Layout]
 BorderLeft=1
 BorderRight=1
 BorderBottom=1
+TitleEdgeTop=0
+TitleEdgeBottom=0
+TitleEdgeLeft=8
+TitleEdgeRight=8
+TitleBorderLeft=6
+TitleBorderRight=6
+TitleHeight=30
+ButtonWidth=30
+ButtonHeight=30
+ButtonSpacing=0
+ButtonMarginTop=0
+ExplicitButtonSpacer=6
 PaddingTop=0
-PaddingBottom=8
-PaddingLeft=8
-PaddingRight=8
-
-# Button geometry
-ButtonWidth=24
-ButtonHeight=24
-ButtonSpacingLeft=2
-ButtonSpacingRight=2
-ButtonMarginTop=4
-ExplicitButtonSpacer=4
-
-# Animation
-AnimationTime=100
+PaddingBottom=0
+PaddingLeft=0
+PaddingRight=0
