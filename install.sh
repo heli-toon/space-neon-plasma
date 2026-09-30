@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Space Neon Orange - Automated KDE Plasma Installer
+# Space Neon Minimal - Automated KDE Plasma Installer
 
 set -e
 
@@ -9,7 +9,7 @@ ORANGE='\033[0;33m'
 NC='\033[0m' # No Color
 
 echo -e "${ORANGE}========================================${NC}"
-echo -e "${ORANGE} Installing Space Neon Orange Theme... ${NC}"
+echo -e "${ORANGE} Installing Space Neon Minimal Theme... ${NC}"
 echo -e "${ORANGE}========================================${NC}"
 
 # Define target directories
@@ -19,7 +19,7 @@ GTK4_DIR="$HOME/.config/gtk-4.0"
 KONSOLE_DIR="$HOME/.local/share/konsole"
 PLASMA_THEME_DIR="$HOME/.local/share/plasma/desktoptheme"
 PLASMA_LOOKANDFEEL_DIR="$HOME/.local/share/plasma/look-and-feel"
-WALLPAPER_DIR="$HOME/.local/share/wallpapers/SpaceNeonOrange/contents/images"
+WALLPAPER_DIR="$HOME/.local/share/wallpapers/SpaceNeonPlasmaMinimal/contents/images"
 SDDM_THEME_DIR="$HOME/.local/share/sddm/themes"
 ICON_DIR="$HOME/.local/share/icons"
 ROFI_DIR="$HOME/.config/rofi"
@@ -38,7 +38,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Copy configurations
 echo -e "${GREEN}[+] Copying color schemes, Plasma themes, icons...${NC}"
-cp -f "$SCRIPT_DIR/color-schemes/SpaceNeonOrange.colors" "$COLOR_DIR/"
+cp -f "$SCRIPT_DIR/color-schemes/SpaceNeonPlasmaMinimal.colors" "$COLOR_DIR/"
 
 # GTK CSS files are session-global — they are read by every GTK app regardless
 # of which desktop environment is active. Only deploy them inside a KDE Plasma
@@ -60,12 +60,13 @@ else
     echo -e "${ORANGE}    Your Xfce/Cinnamon GTK theme is untouched.${NC}"
     echo -e "${ORANGE}    Re-run with --force-gtk to override this guard.${NC}"
 fi
-[ -f "$SCRIPT_DIR/konsole/SpaceNeonOrange.colorscheme" ] && cp -f "$SCRIPT_DIR/konsole/SpaceNeonOrange.colorscheme" "$KONSOLE_DIR/"
+[ -f "$SCRIPT_DIR/konsole/SpaceNeonPlasmaMinimal.colorscheme" ] && cp -f "$SCRIPT_DIR/konsole/SpaceNeonPlasmaMinimal.colorscheme" "$KONSOLE_DIR/"
 [ -d "$SCRIPT_DIR/plasma/desktoptheme/SpaceNeonPlasmaMinimal" ] && cp -rf "$SCRIPT_DIR/plasma/desktoptheme/SpaceNeonPlasmaMinimal" "$PLASMA_THEME_DIR/"
 [ -d "$SCRIPT_DIR/plasma/look-and-feel/SpaceNeonPlasmaMinimal" ] && cp -rf "$SCRIPT_DIR/plasma/look-and-feel/SpaceNeonPlasmaMinimal" "$PLASMA_LOOKANDFEEL_DIR/"
 [ -d "$SCRIPT_DIR/plasma/look-and-feel/SpaceNeonSplash" ] && cp -rf "$SCRIPT_DIR/plasma/look-and-feel/SpaceNeonSplash" "$PLASMA_LOOKANDFEEL_DIR/"
 [ -f "$SCRIPT_DIR/wallpapers/space-neon-orange-nebula.jpg" ] && cp -f "$SCRIPT_DIR/wallpapers/space-neon-orange-nebula.jpg" "$WALLPAPER_DIR/"
-[ -d "$SCRIPT_DIR/sddm/SpaceNeonSDDM/themes/SpaceNeon" ] && cp -rf "$SCRIPT_DIR/sddm/SpaceNeonSDDM/themes/SpaceNeon" "$SDDM_THEME_DIR/"
+[ -d "$SCRIPT_DIR/sddm/SpaceNeonSDDM/themes/SpaceNeonPlasmaMinimal" ] && cp -rf "$SCRIPT_DIR/sddm/SpaceNeonSDDM/themes/SpaceNeonPlasmaMinimal" "$SDDM_THEME_DIR/"
+[ -d "$SCRIPT_DIR/aurorae/themes/SpaceNeonPlasmaMinimal" ] && mkdir -p "$HOME/.local/share/aurorae/themes" && cp -rf "$SCRIPT_DIR/aurorae/themes/SpaceNeonPlasmaMinimal" "$HOME/.local/share/aurorae/themes/"
 [ -f "$SCRIPT_DIR/rofi/config.rasi" ] && cp -f "$SCRIPT_DIR/rofi/config.rasi" "$ROFI_DIR/config.rasi"
 [ -f "$SCRIPT_DIR/rofi/space-neon-launcher" ] && install -m 755 "$SCRIPT_DIR/rofi/space-neon-launcher" "$BIN_DIR/space-neon-launcher"
 [ -f "$SCRIPT_DIR/rofi/space-neon-launcher.desktop" ] && cp -f "$SCRIPT_DIR/rofi/space-neon-launcher.desktop" "$APPLICATIONS_DIR/"
@@ -104,9 +105,9 @@ gtk-update-icon-cache -f -t "$HOME/.local/share/icons/hicolor" 2>/dev/null || tr
 kbuildsycoca6 --noincremental 2>/dev/null || kbuildsycoca5 --noincremental 2>/dev/null || true
 
 # Apply KDE Color Scheme, Accent Color & Fonts programmatically (supports Plasma 5 & Plasma 6)
-echo -e "${GREEN}[+] Applying SpaceNeonOrange Color Scheme, Orange Accent Color (255,107,0), and Fonts...${NC}"
+echo -e "${GREEN}[+] Applying Space Neon Plasma Minimal Color Scheme, Orange Accent Color (255,107,0), and Fonts...${NC}"
 if command -v kwriteconfig6 &> /dev/null; then
-    kwriteconfig6 --file kdeglobals --group General --key ColorScheme "SpaceNeonOrange"
+    kwriteconfig6 --file kdeglobals --group General --key ColorScheme "SpaceNeonPlasmaMinimal"
     kwriteconfig6 --file kdeglobals --group General --key AccentColor "255,107,0"
     kwriteconfig6 --file kdeglobals --group General --key accentColorFromWallpaper "false"
     kwriteconfig6 --file kdeglobals --group General --key font "$FONT_VALUE"
@@ -119,7 +120,7 @@ if command -v kwriteconfig6 &> /dev/null; then
     kwriteconfig6 --file ksplashrc --group KSplash --key Theme "SpaceNeonSplash"
     kwriteconfig6 --file ksplashrc --group KSplash --key Engine "KSplashQML"
 elif command -v kwriteconfig5 &> /dev/null; then
-    kwriteconfig5 --file kdeglobals --group General --key ColorScheme "SpaceNeonOrange"
+    kwriteconfig5 --file kdeglobals --group General --key ColorScheme "SpaceNeonPlasmaMinimal"
     kwriteconfig5 --file kdeglobals --group General --key AccentColor "255,107,0"
     kwriteconfig5 --file kdeglobals --group General --key accentColorFromWallpaper "false"
     kwriteconfig5 --file kdeglobals --group General --key font "$FONT_VALUE"
@@ -146,11 +147,15 @@ else
     echo "[!] YAMIS is not installed. Install it from System Settings → Icons → Get New…, then re-run this script."
 fi
 
-# Apply SpaceNeonPlasmaMinimal Plasma theme & Global theme
+# Apply SpaceNeonPlasmaMinimal Plasma theme, Global theme & Aurorae window decoration
 if command -v kwriteconfig6 &> /dev/null; then
     kwriteconfig6 --file plasmarc --group Theme --key name "SpaceNeonPlasmaMinimal"
+    kwriteconfig6 --file kwinrc --group org.kde.kdecoration2 --key library "org.kde.kwin.aurorae"
+    kwriteconfig6 --file kwinrc --group org.kde.kdecoration2 --key theme "__aurorae__svg__SpaceNeonPlasmaMinimal"
 elif command -v kwriteconfig5 &> /dev/null; then
     kwriteconfig5 --file plasmarc --group Theme --key name "SpaceNeonPlasmaMinimal"
+    kwriteconfig5 --file kwinrc --group org.kde.kdecoration2 --key library "org.kde.kwin.aurorae"
+    kwriteconfig5 --file kwinrc --group org.kde.kdecoration2 --key theme "__aurorae__svg__SpaceNeonPlasmaMinimal"
 fi
 
 if command -v lookandfeeltool &> /dev/null; then

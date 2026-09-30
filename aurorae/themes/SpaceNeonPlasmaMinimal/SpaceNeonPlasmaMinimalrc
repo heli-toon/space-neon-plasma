@@ -1,0 +1,32 @@
+[General]
+# Title alignment
+TitleAlignment=Center
+TitleEdgePaddingTop=4
+TitleEdgePaddingBottom=4
+TitleEdgeLeft=12
+TitleEdgeRight=12
+TitleEdgeTop=0
+TitleEdgeBottom=0
+TitleBorderLeft=0
+TitleBorderRight=0
+TitleHeight=28
+
+# Padding and border radius — squircle-style
+BorderLeft=1
+BorderRight=1
+BorderBottom=1
+PaddingTop=0
+PaddingBottom=8
+PaddingLeft=8
+PaddingRight=8
+
+# Button geometry
+ButtonWidth=24
+ButtonHeight=24
+ButtonSpacingLeft=2
+ButtonSpacingRight=2
+ButtonMarginTop=4
+ExplicitButtonSpacer=4
+
+# Animation
+AnimationTime=100

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Space Neon Plasma Minimal
+Comment=Space Neon Plasma Minimal theme for SDDM login screen
+X-KDE-PluginInfo-Author=Muhaimin
+X-KDE-PluginInfo-Name=SpaceNeonPlasmaMinimal
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-License=GPLv3
+Type=Service
+X-Plasma-Provides=plasma-sddmtheme

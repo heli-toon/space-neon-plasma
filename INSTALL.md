@@ -1,4 +1,4 @@
-# Installing Space Neon Orange
+# Installing Space Neon Minimal
 
 Two ways to install: **remote** (from GitHub, one line) or **local** (you already have the folder). Both end with the same result.
 
@@ -51,8 +51,8 @@ chmod +x install.sh
 | Step | Action |
 |---|---|
 | 1 | Creates `~/.local/share/color-schemes`, `~/.config/gtk-3.0`, `~/.config/gtk-4.0`, `~/.local/share/konsole`, `~/.local/share/plasma/desktoptheme` if missing |
-| 2 | Copies `SpaceNeonOrange.colors`, `gtk.css` (x2), the Konsole scheme, and the Plasma theme metadata into those folders |
-| 3 | Runs `kwriteconfig6`/`kwriteconfig5` to set the KDE color scheme to `SpaceNeonOrange` |
+| 2 | Copies `SpaceNeonPlasmaMinimal.colors`, `gtk.css` (x2), the Konsole scheme, Aurorae window decoration, and the Plasma theme metadata into those folders |
+| 3 | Runs `kwriteconfig6`/`kwriteconfig5` to set the KDE color scheme to `SpaceNeonPlasmaMinimal` and the Aurorae window decoration to `SpaceNeonPlasmaMinimal` |
 | 4 | Reloads KWin via `qdbus6`/`qdbus` so window borders update without a logout |
 
 Nothing is installed system-wide — everything lands in your `$HOME`, so no `sudo` is required.
@@ -64,13 +64,13 @@ Nothing is installed system-wide — everything lands in your `$HOME`, so no `su
 The script sets the **color scheme** automatically, but a few pieces are opt-in through the GUI:
 
 1. **Confirm the color scheme:**
-   System Settings → **Appearance → Colors** → select **Space Neon Orange**. (Should already be selected after the script runs — this is just to verify.)
+   System Settings → **Appearance → Colors** → select **Space Neon Minimal**. (Should already be selected after the script runs — this is just to verify.)
 
 2. **Pick up the GTK CSS:**
    Restart GTK apps (Firefox, GIMP, file managers, etc.). GTK apps read `gtk.css` on launch, not live.
 
 3. **Enable the Konsole theme:**
-   Konsole → **Settings → Edit Current Profile → Appearance** → select **Space Neon Orange** as the color scheme.
+   Konsole → **Settings → Edit Current Profile → Appearance** → select **Space Neon Minimal** as the color scheme.
 
 4. **Go ultra-minimal (optional):**
    - Right-click the Plasma panel → **Enter Edit Mode** → set panel to **Auto-Hide**, remove default widgets you don't need.
@@ -97,8 +97,9 @@ The script sets the **color scheme** automatically, but a few pieces are opt-in 
 There's no uninstaller — remove the copied files manually if you want to revert:
 
 ```bash
-rm ~/.local/share/color-schemes/SpaceNeonOrange.colors
-rm ~/.local/share/konsole/SpaceNeonOrange.colorscheme
+rm ~/.local/share/color-schemes/SpaceNeonPlasmaMinimal.colors
+rm ~/.local/share/konsole/SpaceNeonPlasmaMinimal.colorscheme
+rm -rf ~/.local/share/aurorae/themes/SpaceNeonPlasmaMinimal
 rm -rf ~/.local/share/plasma/desktoptheme/SpaceNeonPlasmaMinimal
 rm -rf ~/.local/share/plasma/look-and-feel/SpaceNeonPlasmaMinimal
 ```

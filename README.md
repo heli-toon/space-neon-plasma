@@ -1,4 +1,4 @@
-# Space Neon Orange — KDE Plasma Theme
+# Space Neon Minimal — KDE Plasma Theme
 
 An ultra-minimal, high-contrast dark theme for KDE Plasma designed for performance and aesthetic clarity. Deep space blacks (`#0A0A0B`), grayscale hierarchy, and vibrant neon orange (`#FF6B00`) accents.
 
@@ -39,9 +39,9 @@ chmod +x install.sh
 
 ## After Installing
 
-1. Open **System Settings → Appearance → Colors** and select **Space Neon Orange**.
+1. Open **System Settings → Appearance → Colors** and select **Space Neon Minimal**.
 2. Restart GTK apps (Firefox, GIMP, etc.) to pick up the new `gtk.css`.
-3. In Konsole, go to **Settings → Edit Current Profile → Appearance** and select **Space Neon Orange**.
+3. In Konsole, go to **Settings → Edit Current Profile → Appearance** and select **Space Neon Minimal**.
 4. Install **Yet Another Monochrome Icon Set (YAMIS)** from **System Settings → Icons → Get New…**, then re-run the deployer. It selects the actual icon-theme key: `YAMIS`.
 5. Install **JetBrainsMono Nerd Font Mono** (for example from the Nerd Fonts package) before applying the theme.
 6. The included 4K orange-nebula wallpaper is installed for optional manual selection; the installer never changes your current wallpaper.
@@ -51,9 +51,10 @@ chmod +x install.sh
 
 | Component | Path |
 |---|---|
-| KDE color scheme | `color-schemes/SpaceNeonOrange.colors` |
+| KDE color scheme | `color-schemes/SpaceNeonPlasmaMinimal.colors` |
 | GTK 3/4 CSS overrides | `gtk/gtk-3.0/gtk.css`, `gtk/gtk-4.0/gtk.css` |
-| Konsole theme | `konsole/SpaceNeonOrange.colorscheme` |
+| Konsole theme | `konsole/SpaceNeonPlasmaMinimal.colorscheme` |
+| Aurorae window decoration (squircle) | `aurorae/themes/SpaceNeonPlasmaMinimal/` |
 | Plasma desktop theme, squircle UI & tray icons | `plasma/desktoptheme/SpaceNeonPlasmaMinimal/` |
 | Global look-and-feel theme | `plasma/look-and-feel/SpaceNeonPlasmaMinimal/` |
 | Antigravity application icon | `icons/antigravity.svg` |
@@ -68,15 +69,17 @@ space-neon-plasma/
 ├── deploy.sh
 ├── README.md
 ├── color-schemes/
-│   └── SpaceNeonOrange.colors
+│   └── SpaceNeonPlasmaMinimal.colors
 ├── gtk/
 │   ├── gtk-3.0/gtk.css
 │   └── gtk-4.0/gtk.css
+├── aurorae/
+│   └── themes/SpaceNeonPlasmaMinimal/
 ├── plasma/
 │   ├── desktoptheme/SpaceNeonPlasmaMinimal/
 │   └── look-and-feel/SpaceNeonPlasmaMinimal/
 └── konsole/
-    └── SpaceNeonOrange.colorscheme
+    └── SpaceNeonPlasmaMinimal.colorscheme
 ```
 
 ## Publishing to GitHub
@@ -84,7 +87,7 @@ space-neon-plasma/
 ```bash
 git init
 git add .
-git commit -m "Initial commit: Space Neon Orange KDE theme"
+git commit -m "Initial commit: Space Neon Minimal KDE theme"
 git branch -M main
 git remote add origin https://github.com/heli-toon/space-neon-plasma.git
 git push -u origin main

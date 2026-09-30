@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Space Neutron SDDM
-Comment=Space Neon theme for SDDM login screen
-X-KDE-PluginInfo-Author=Muhaimin
-X-KDE-PluginInfo-Name=SpaceNeon
-X-KDE-PluginInfo-Version=1.0
-X-KDE-PluginInfo-License=GPLv2+
-Type=Service
-X-Plasma-Provides=plasma-sddmtheme
