@@ -99,7 +99,8 @@ There's no uninstaller — remove the copied files manually if you want to rever
 ```bash
 rm ~/.local/share/color-schemes/SpaceNeonOrange.colors
 rm ~/.local/share/konsole/SpaceNeonOrange.colorscheme
-rm -rf ~/.local/share/plasma/desktoptheme/SpaceNeonMinimal
+rm -rf ~/.local/share/plasma/desktoptheme/SpaceNeonPlasmaMinimal
+rm -rf ~/.local/share/plasma/look-and-feel/SpaceNeonPlasmaMinimal
 ```
 
 Then reset your GTK CSS (`~/.config/gtk-3.0/gtk.css`, `~/.config/gtk-4.0/gtk.css`) and pick a different color scheme in System Settings.

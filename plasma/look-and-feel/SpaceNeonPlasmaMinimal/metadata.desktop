@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=Space Neon Plasma Minimal Global Theme
+HasTitle=true
+Icon=antigravity
+Name=Space Neon Plasma Minimal
+Type=Service
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-PluginInfo-Author=Space Neon Plasma
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Name=SpaceNeonPlasmaMinimal
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Category=Plasma Look and Feel
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-EnabledByDefault=true

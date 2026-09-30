@@ -54,7 +54,8 @@ chmod +x install.sh
 | KDE color scheme | `color-schemes/SpaceNeonOrange.colors` |
 | GTK 3/4 CSS overrides | `gtk/gtk-3.0/gtk.css`, `gtk/gtk-4.0/gtk.css` |
 | Konsole theme | `konsole/SpaceNeonOrange.colorscheme` |
-| Plasma desktop theme & tray icons | `plasma/desktoptheme/SpaceNeonMinimal/` |
+| Plasma desktop theme, squircle UI & tray icons | `plasma/desktoptheme/SpaceNeonPlasmaMinimal/` |
+| Global look-and-feel theme | `plasma/look-and-feel/SpaceNeonPlasmaMinimal/` |
 | Antigravity application icon | `icons/antigravity.svg` |
 | 4K matching wallpaper | `wallpapers/space-neon-orange-nebula.jpg` |
 | Rofi launcher | `rofi/config.rasi`, `rofi/space-neon-launcher` |
@@ -64,6 +65,7 @@ chmod +x install.sh
 ```text
 space-neon-plasma/
 ├── install.sh
+├── deploy.sh
 ├── README.md
 ├── color-schemes/
 │   └── SpaceNeonOrange.colors
@@ -71,7 +73,8 @@ space-neon-plasma/
 │   ├── gtk-3.0/gtk.css
 │   └── gtk-4.0/gtk.css
 ├── plasma/
-│   └── desktoptheme/SpaceNeonMinimal/metadata.desktop
+│   ├── desktoptheme/SpaceNeonPlasmaMinimal/
+│   └── look-and-feel/SpaceNeonPlasmaMinimal/
 └── konsole/
     └── SpaceNeonOrange.colorscheme
 ```

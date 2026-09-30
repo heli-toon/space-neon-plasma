@@ -37,7 +37,7 @@ mkdir -p "$COLOR_DIR" "$GTK3_DIR" "$GTK4_DIR" "$KONSOLE_DIR" "$PLASMA_THEME_DIR"
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Copy configurations
-echo -e "${GREEN}[+] Copying color schemes, icons...${NC}"
+echo -e "${GREEN}[+] Copying color schemes, Plasma themes, icons...${NC}"
 cp -f "$SCRIPT_DIR/color-schemes/SpaceNeonOrange.colors" "$COLOR_DIR/"
 
 # GTK CSS files are session-global — they are read by every GTK app regardless
@@ -61,7 +61,8 @@ else
     echo -e "${ORANGE}    Re-run with --force-gtk to override this guard.${NC}"
 fi
 [ -f "$SCRIPT_DIR/konsole/SpaceNeonOrange.colorscheme" ] && cp -f "$SCRIPT_DIR/konsole/SpaceNeonOrange.colorscheme" "$KONSOLE_DIR/"
-[ -d "$SCRIPT_DIR/plasma/desktoptheme/SpaceNeonMinimal" ] && cp -rf "$SCRIPT_DIR/plasma/desktoptheme/SpaceNeonMinimal" "$PLASMA_THEME_DIR/"
+[ -d "$SCRIPT_DIR/plasma/desktoptheme/SpaceNeonPlasmaMinimal" ] && cp -rf "$SCRIPT_DIR/plasma/desktoptheme/SpaceNeonPlasmaMinimal" "$PLASMA_THEME_DIR/"
+[ -d "$SCRIPT_DIR/plasma/look-and-feel/SpaceNeonPlasmaMinimal" ] && cp -rf "$SCRIPT_DIR/plasma/look-and-feel/SpaceNeonPlasmaMinimal" "$PLASMA_LOOKANDFEEL_DIR/"
 [ -d "$SCRIPT_DIR/plasma/look-and-feel/SpaceNeonSplash" ] && cp -rf "$SCRIPT_DIR/plasma/look-and-feel/SpaceNeonSplash" "$PLASMA_LOOKANDFEEL_DIR/"
 [ -f "$SCRIPT_DIR/wallpapers/space-neon-orange-nebula.jpg" ] && cp -f "$SCRIPT_DIR/wallpapers/space-neon-orange-nebula.jpg" "$WALLPAPER_DIR/"
 [ -d "$SCRIPT_DIR/sddm/SpaceNeonSDDM/themes/SpaceNeon" ] && cp -rf "$SCRIPT_DIR/sddm/SpaceNeonSDDM/themes/SpaceNeon" "$SDDM_THEME_DIR/"
@@ -72,8 +73,13 @@ fi
 # Antigravity & Start Menu icon installation
 if [ -f "$SCRIPT_DIR/icons/antigravity.svg" ]; then
     cp -f "$SCRIPT_DIR/icons/antigravity.svg" "$SCALABLE_ICON_DIR/antigravity.svg"
+    cp -f "$SCRIPT_DIR/icons/antigravity.svg" "$SCALABLE_ICON_DIR/antigravity-ide.svg"
+    cp -f "$SCRIPT_DIR/icons/antigravity.svg" "$SCALABLE_ICON_DIR/com.antigravity.svg"
     cp -f "$SCRIPT_DIR/icons/antigravity.svg" "$ICON_DIR/antigravity.svg"
+    cp -f "$SCRIPT_DIR/icons/antigravity.svg" "$ICON_DIR/antigravity-ide.svg"
+    cp -f "$SCRIPT_DIR/icons/antigravity.svg" "$ICON_DIR/com.antigravity.svg"
 fi
+
 if [ -f "$SCRIPT_DIR/icons/start-here-kde.svg" ]; then
     cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$SCALABLE_ICON_DIR/start-here-kde.svg"
     cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$SCALABLE_ICON_DIR/start-here.svg"
@@ -85,15 +91,24 @@ if [ -f "$SCRIPT_DIR/icons/start-here-kde.svg" ]; then
     [ -d "$ICON_DIR/YAMIS/places/scalable" ] && cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$ICON_DIR/YAMIS/places/scalable/start-here.svg"
     [ -d "$ICON_DIR/YAMIS/places/scalable" ] && cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$ICON_DIR/YAMIS/places/scalable/kde.svg"
 fi
-if [ -f "$APPLICATIONS_DIR/antigravity.desktop" ]; then
-    sed -i 's|^Icon=.*|Icon=antigravity|' "$APPLICATIONS_DIR/antigravity.desktop"
-fi
 
-# Apply KDE Color Scheme & Fonts programmatically (supports Plasma 5 & Plasma 6)
-echo -e "${GREEN}[+] Applying Plasma Color Scheme and Fonts...${NC}"
+# Update desktop shortcuts for Antigravity if they exist
+for desktop_file in "$APPLICATIONS_DIR"/antigravity*.desktop /usr/share/applications/antigravity*.desktop; do
+    if [ -f "$desktop_file" ] && [ -w "$desktop_file" ]; then
+        sed -i 's|^Icon=.*|Icon=antigravity|' "$desktop_file" 2>/dev/null || true
+    fi
+done
+
+# Update GTK & KDE icon caches
+gtk-update-icon-cache -f -t "$HOME/.local/share/icons/hicolor" 2>/dev/null || true
+kbuildsycoca6 --noincremental 2>/dev/null || kbuildsycoca5 --noincremental 2>/dev/null || true
+
+# Apply KDE Color Scheme, Accent Color & Fonts programmatically (supports Plasma 5 & Plasma 6)
+echo -e "${GREEN}[+] Applying SpaceNeonOrange Color Scheme, Orange Accent Color (255,107,0), and Fonts...${NC}"
 if command -v kwriteconfig6 &> /dev/null; then
     kwriteconfig6 --file kdeglobals --group General --key ColorScheme "SpaceNeonOrange"
     kwriteconfig6 --file kdeglobals --group General --key AccentColor "255,107,0"
+    kwriteconfig6 --file kdeglobals --group General --key accentColorFromWallpaper "false"
     kwriteconfig6 --file kdeglobals --group General --key font "$FONT_VALUE"
     kwriteconfig6 --file kdeglobals --group General --key fixed "$FONT_VALUE"
     kwriteconfig6 --file kdeglobals --group General --key menuFont "$FONT_VALUE"
@@ -106,6 +121,7 @@ if command -v kwriteconfig6 &> /dev/null; then
 elif command -v kwriteconfig5 &> /dev/null; then
     kwriteconfig5 --file kdeglobals --group General --key ColorScheme "SpaceNeonOrange"
     kwriteconfig5 --file kdeglobals --group General --key AccentColor "255,107,0"
+    kwriteconfig5 --file kdeglobals --group General --key accentColorFromWallpaper "false"
     kwriteconfig5 --file kdeglobals --group General --key font "$FONT_VALUE"
     kwriteconfig5 --file kdeglobals --group General --key fixed "$FONT_VALUE"
     kwriteconfig5 --file kdeglobals --group General --key menuFont "$FONT_VALUE"
@@ -119,8 +135,7 @@ else
     echo "[!] kwriteconfig5/6 not found — color scheme file was copied but not auto-applied."
 fi
 
-# YAMIS is adaptive: it follows the Plasma foreground colour, so the icons
-# stay monochrome while the orange accent remains reserved for interaction.
+# YAMIS icon theme selection
 if [ -f "$ICON_DIR/YAMIS/index.theme" ]; then
     if command -v kwriteconfig6 &> /dev/null; then
         kwriteconfig6 --file kdeglobals --group Icons --key Theme "YAMIS"
@@ -131,15 +146,15 @@ else
     echo "[!] YAMIS is not installed. Install it from System Settings → Icons → Get New…, then re-run this script."
 fi
 
-# The wallpaper is installed for manual selection only. Never replace a user's
-# existing desktop wallpaper during theme installation.
-
-# Select the Plasma desktop theme as well as the colour and icon themes above.
-# This is what makes Plasma load the custom system-tray SVG assets.
+# Apply SpaceNeonPlasmaMinimal Plasma theme & Global theme
 if command -v kwriteconfig6 &> /dev/null; then
-    kwriteconfig6 --file plasmarc --group Theme --key name "SpaceNeonMinimal"
+    kwriteconfig6 --file plasmarc --group Theme --key name "SpaceNeonPlasmaMinimal"
 elif command -v kwriteconfig5 &> /dev/null; then
-    kwriteconfig5 --file plasmarc --group Theme --key name "SpaceNeonMinimal"
+    kwriteconfig5 --file plasmarc --group Theme --key name "SpaceNeonPlasmaMinimal"
+fi
+
+if command -v lookandfeeltool &> /dev/null; then
+    lookandfeeltool -a SpaceNeonPlasmaMinimal 2>/dev/null || true
 fi
 
 # Reload KWin to apply instantly
@@ -151,7 +166,7 @@ elif command -v qdbus &> /dev/null; then
 fi
 
 echo -e "${ORANGE}========================================${NC}"
-echo -e "${GREEN} Success! Theme installed and applied. ${NC}"
+echo -e "${GREEN} Success! SpaceNeonPlasmaMinimal installed and applied. ${NC}"
 echo -e "${ORANGE}========================================${NC}"
 echo "Note: some apps (GTK, Konsole profile selection) may need a restart to pick up the new theme.
 To use the SDDM theme, go to System Settings > Startup and Shutdown > Login Screen (SDDM) and select 'Space Neutron SDDM'. If the theme does not appear, you may need to copy it to /usr/share/sddm/themes (requires root)."

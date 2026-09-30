@@ -1,0 +1,17 @@
+[kdeglobals][General]
+ColorScheme=SpaceNeonOrange
+AccentColor=255,107,0
+accentColorFromWallpaper=false
+
+[kdeglobals][Icons]
+Theme=YAMIS
+
+[plasmarc][Theme]
+name=SpaceNeonPlasmaMinimal
+
+[ksplashrc][KSplash]
+Engine=KSplashQML
+Theme=SpaceNeonSplash
+
+[kwinrc][NightColor]
+Active=false
