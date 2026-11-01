@@ -16,14 +16,13 @@ An ultra-minimal, high-contrast dark theme for KDE Plasma designed for performan
 - **Custom System Tray SVGs** — minimalistic, high-precision Plasma system tray icons (`systemtray`, `audio`, `network`, `battery`, `notifications`, `bluetooth`).
 - **Custom Antigravity IDE Icon** — sleek deep space dark & neon orange vector icon (`icons/antigravity.svg`).
 - **Darker panel palette** — the panel and button surfaces sit below the window background for a more deliberate contrast.
-- **Rofi launcher** — a small keyboard-first `drun` launcher with the same black, orange, and JetBrains Mono treatment.
 - **Multi-version support** — works on KDE Plasma 5 and Plasma 6.
 - **Matching Konsole theme** included for a consistent terminal look.
 
 ## One-Line Quick Install
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/heli-toon/space-neon-plasma/main/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/heli-toon/space-neon-plasma/master/install.sh)"
 ```
 
 > Replace `heli-toon` with your GitHub username once you've pushed the repo.
@@ -88,9 +87,9 @@ space-neon-plasma/
 git init
 git add .
 git commit -m "Initial commit: Space Neon Minimal KDE theme"
-git branch -M main
+git branch -M master
 git remote add origin https://github.com/heli-toon/space-neon-plasma.git
-git push -u origin main
+git push -u origin master
 ```
 
 Don't forget to drop a `preview.png` screenshot of your desktop into the repo root before pushing — the README links to it.

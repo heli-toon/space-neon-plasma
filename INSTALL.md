@@ -7,10 +7,12 @@ Two ways to install: **remote** (from GitHub, one line) or **local** (you alread
 ## Option A — Remote install (from GitHub)
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/heli-toon/space-neon-plasma/main/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/heli-toon/space-neon-plasma/master/install.sh)"
 ```
 
-This downloads and runs `install.sh` directly — it does **not** clone the repo first, so it only works if `install.sh` itself pulls files from other raw GitHub URLs. Since our `install.sh` copies files from a local `$SCRIPT_DIR`, the more reliable remote flow is:
+This downloads and runs `install.sh` directly. If the script is not already sitting inside a checked-out repo, it bootstraps the theme assets from GitHub automatically before applying the theme.
+
+If you prefer the explicit local flow, you can still do this instead:
 
 ```bash
 git clone https://github.com/heli-toon/space-neon-plasma.git

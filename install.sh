@@ -29,12 +29,56 @@ FONT_VALUE="JetBrainsMono Nerd Font Mono,10,-1,5,50,0,0,0,0,0"
 FONT_TOOLBAR="JetBrainsMono Nerd Font Mono,9,-1,5,50,0,0,0,0,0"
 FONT_SMALL="JetBrainsMono Nerd Font Mono,8,-1,5,50,0,0,0,0,0"
 SCALABLE_ICON_DIR="$HOME/.local/share/icons/hicolor/scalable/apps"
+REPO_OWNER="${SPACE_NEON_REPO_OWNER:-heli-toon}"
+REPO_NAME="${SPACE_NEON_REPO_NAME:-space-neon-plasma}"
+REPO_BRANCH="${SPACE_NEON_REPO_BRANCH:-master}"
 
 # Create directories if they don't exist
 mkdir -p "$COLOR_DIR" "$GTK3_DIR" "$GTK4_DIR" "$KONSOLE_DIR" "$PLASMA_THEME_DIR" "$PLASMA_LOOKANDFEEL_DIR" "$WALLPAPER_DIR" "$SDDM_THEME_DIR" "$ICON_DIR" "$SCALABLE_ICON_DIR" "$ROFI_DIR" "$BIN_DIR" "$APPLICATIONS_DIR"
 
-# Get current script directory
+# Get current script directory. If the script is being executed directly from a
+# raw GitHub URL, bootstrap the repo into a temp directory first so the theme
+# assets are still available.
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+if [ ! -f "$SCRIPT_DIR/color-schemes/SpaceNeonPlasmaMinimal.colors" ]; then
+    echo -e "${ORANGE}[~] Bootstrapping theme files from GitHub...${NC}"
+    TMP_REPO_DIR="$(mktemp -d)"
+
+    if command -v git >/dev/null 2>&1; then
+        if git clone --depth 1 --branch "$REPO_BRANCH" "https://github.com/${REPO_OWNER}/${REPO_NAME}.git" "$TMP_REPO_DIR" >/dev/null 2>&1; then
+            SCRIPT_DIR="$TMP_REPO_DIR"
+        else
+            rm -rf "$TMP_REPO_DIR"
+            TMP_REPO_DIR=""
+        fi
+    fi
+
+    if [ -z "$TMP_REPO_DIR" ] || [ ! -f "$TMP_REPO_DIR/color-schemes/SpaceNeonPlasmaMinimal.colors" ]; then
+        TMP_REPO_DIR="$(mktemp -d)"
+        if command -v curl >/dev/null 2>&1; then
+            ARCHIVE_URL="https://github.com/${REPO_OWNER}/${REPO_NAME}/archive/refs/heads/${REPO_BRANCH}.tar.gz"
+            ARCHIVE_PATH="$(mktemp)"
+            curl -fsSL "$ARCHIVE_URL" -o "$ARCHIVE_PATH"
+            tar -xzf "$ARCHIVE_PATH" -C "$TMP_REPO_DIR" --strip-components=1
+            rm -f "$ARCHIVE_PATH"
+        elif command -v wget >/dev/null 2>&1; then
+            ARCHIVE_URL="https://github.com/${REPO_OWNER}/${REPO_NAME}/archive/refs/heads/${REPO_BRANCH}.tar.gz"
+            ARCHIVE_PATH="$(mktemp)"
+            wget -qO "$ARCHIVE_PATH" "$ARCHIVE_URL"
+            tar -xzf "$ARCHIVE_PATH" -C "$TMP_REPO_DIR" --strip-components=1
+            rm -f "$ARCHIVE_PATH"
+        else
+            echo -e "${ORANGE}[!] Neither git, curl, nor wget is available to bootstrap the theme repo.${NC}"
+            exit 1
+        fi
+
+        if [ ! -f "$TMP_REPO_DIR/color-schemes/SpaceNeonPlasmaMinimal.colors" ]; then
+            echo -e "${ORANGE}[!] Unable to download the theme repo. Clone the repo locally and run ./install.sh from there.${NC}"
+            exit 1
+        fi
+        SCRIPT_DIR="$TMP_REPO_DIR"
+    fi
+fi
 
 # Copy configurations
 echo -e "${GREEN}[+] Copying color schemes, Plasma themes, icons...${NC}"
