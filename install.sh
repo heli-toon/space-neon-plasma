@@ -125,6 +125,15 @@ if [ -f "$SCRIPT_DIR/icons/antigravity.svg" ]; then
     cp -f "$SCRIPT_DIR/icons/antigravity.svg" "$ICON_DIR/com.antigravity.svg"
 fi
 
+if [ -f "$SCRIPT_DIR/icons/freedownloadmanager.svg" ]; then
+    cp -f "$SCRIPT_DIR/icons/freedownloadmanager.svg" "$SCALABLE_ICON_DIR/freedownloadmanager.svg"
+    cp -f "$SCRIPT_DIR/icons/freedownloadmanager.svg" "$SCALABLE_ICON_DIR/fdm.svg"
+    cp -f "$SCRIPT_DIR/icons/freedownloadmanager.svg" "$ICON_DIR/freedownloadmanager.svg"
+    cp -f "$SCRIPT_DIR/icons/freedownloadmanager.svg" "$ICON_DIR/fdm.svg"
+    [ -d "$ICON_DIR/YAMIS/apps/scalable" ] && cp -f "$SCRIPT_DIR/icons/freedownloadmanager.svg" "$ICON_DIR/YAMIS/apps/scalable/freedownloadmanager.svg"
+    [ -d "$ICON_DIR/YAMIS/apps/scalable" ] && cp -f "$SCRIPT_DIR/icons/freedownloadmanager.svg" "$ICON_DIR/YAMIS/apps/scalable/fdm.svg"
+fi
+
 if [ -f "$SCRIPT_DIR/icons/start-here-kde.svg" ]; then
     cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$SCALABLE_ICON_DIR/start-here-kde.svg"
     cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$SCALABLE_ICON_DIR/start-here.svg"
@@ -137,15 +146,28 @@ if [ -f "$SCRIPT_DIR/icons/start-here-kde.svg" ]; then
     [ -d "$ICON_DIR/YAMIS/places/scalable" ] && cp -f "$SCRIPT_DIR/icons/start-here-kde.svg" "$ICON_DIR/YAMIS/places/scalable/kde.svg"
 fi
 
-# Update desktop shortcuts for Antigravity if they exist
+# Update desktop shortcuts for Antigravity and Free Download Manager if they exist
 for desktop_file in "$APPLICATIONS_DIR"/antigravity*.desktop /usr/share/applications/antigravity*.desktop; do
     if [ -f "$desktop_file" ] && [ -w "$desktop_file" ]; then
         sed -i 's|^Icon=.*|Icon=antigravity|' "$desktop_file" 2>/dev/null || true
     fi
 done
 
+for desktop_file in "$APPLICATIONS_DIR"/freedownloadmanager*.desktop "$APPLICATIONS_DIR"/fdm*.desktop /usr/share/applications/freedownloadmanager*.desktop /usr/share/applications/fdm*.desktop; do
+    if [ -f "$desktop_file" ]; then
+        user_desktop="$APPLICATIONS_DIR/$(basename "$desktop_file")"
+        if [ ! -f "$user_desktop" ]; then
+            cp -f "$desktop_file" "$user_desktop" 2>/dev/null || true
+        fi
+        if [ -w "$user_desktop" ]; then
+            sed -i 's|^Icon=.*|Icon=freedownloadmanager|' "$user_desktop" 2>/dev/null || true
+        fi
+    fi
+done
+
 # Update GTK & KDE icon caches
 gtk-update-icon-cache -f -t "$HOME/.local/share/icons/hicolor" 2>/dev/null || true
+gtk-update-icon-cache -f -t "$HOME/.local/share/icons/YAMIS" 2>/dev/null || true
 kbuildsycoca6 --noincremental 2>/dev/null || kbuildsycoca5 --noincremental 2>/dev/null || true
 
 # Apply KDE Color Scheme, Accent Color & Fonts programmatically (supports Plasma 5 & Plasma 6)
